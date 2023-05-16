@@ -818,6 +818,8 @@ padding: 40px 32px;
 }
 
 /* BACKDROP  modal window--------------------------------------- */
+
+       /* backdrop ------------------------------------------------- */
 .backdrop{
 position: fixed;
 width: 100%;
@@ -828,11 +830,14 @@ background-color:rgba(46, 47, 66, 0.4);
 transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
+
 .backdrop.is-hidden{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
+
+       /* modal window --------------------------------------------------------- */
 .modal{
     position: absolute;
     width: 408px;
@@ -844,9 +849,11 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-
-
 }
+
+
+
+          /* modal close button -------------------------------------------------------- */
 .modal-close-button{
 position: absolute;
 top: 24px;
@@ -855,14 +862,11 @@ color: #2E2F42;
 display: flex;
 align-items: center;
 justify-content: center;
-
-
 width: 24px;
 height: 24px;
 background: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
-
 padding: 0;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
@@ -870,17 +874,24 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .modal-close-button:focus{
     background-color: #404bbf; 
     border: none;
-    color: #FFFFFF;
-     
+    color: #FFFFFF;    
 }
-
-
 .modal-close-icon{
 fill:#2E2F42; 
 }
 .svag{
     fill: currentColor;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
 }
 
+/* modal form ----------------------------------------------------------------- */
+
+
+
+/* footer e-mail input ---------------------------------------------------------- */
+.mail-input-container{
+    outline: 2px  solid red;
+}
+.subscribe-button{
+ display: flex;
+}
