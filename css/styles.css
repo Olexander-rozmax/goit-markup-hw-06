@@ -919,8 +919,7 @@ span {
     position: absolute;
     left: 16px;
     top: 8px;
-
-
+    fill:#2E2F42;
 }
     
 
@@ -996,4 +995,40 @@ letter-spacing: 0.04em;
 
 .subscribe-button {
     display: flex;
+}
+
+/* check box */
+.modal-form-check-desc::before{
+    display: block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    content:'';
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.modal-form-check-desc{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.04em;
+color: #8E8F99;
+}
+.modal-form-check:checked + .modal-form-check-desc::before {
+background-color: tomato;
+background-image:url(../images/close-btn.svg);
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
