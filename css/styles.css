@@ -1006,7 +1006,7 @@ span {
 /* footer e-mail input ---------------------------------------------------------- */
 .mail-input-container {
  margin-left: 80px;
- outline: 1px solid #E7E9FC;
+
 
 }
 
@@ -1015,6 +1015,12 @@ span {
     color: #E7E9FC;
     margin-left: 24px;
 }
+
+
+
+/* ====================================================== */
+
+
 
 
 
