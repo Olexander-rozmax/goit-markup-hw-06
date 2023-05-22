@@ -1005,12 +1005,19 @@ span {
 
 /* footer e-mail input ---------------------------------------------------------- */
 .mail-input-container {
-    outline: 2px solid red;
+ margin-left: 80px;
+ outline: 1px solid #E7E9FC;
+
 }
 
-.subscribe-button {
-    display: flex;
+.subscribe-button{
+    background-color: #4D5AE5;
+    color: #E7E9FC;
+    margin-left: 24px;
 }
+
+
+
 
 /* check box */
 .modal-form-check-desc::before {
