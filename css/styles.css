@@ -1021,6 +1021,7 @@ letter-spacing: 0.04em;
     content:'';
     border-radius: 4px;
     cursor: pointer;
+    margin-right: 10px;
     
 }
 .modal-form-check-desc{
@@ -1032,6 +1033,11 @@ line-height: 14px;
 letter-spacing: 0.04em;
 color: #8E8F99;
 }
+.modal-form-check-desc{
+    display: flex;
+    align-items: center;
+}
+
 
 
 .modal-form-check:checked + .modal-form-check-desc::before {
