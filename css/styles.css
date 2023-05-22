@@ -647,7 +647,7 @@ span {
 
 .customer-list-link {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     height: 100%;
     border: 1px solid #8e8f99;
@@ -915,12 +915,9 @@ span {
     position: relative;
 }
 
-.icon-modal{
-    position: absolute;
-    left: 16px;
-    top: 8px;
-    fill:#2E2F42;
-}
+
+
+
     
 
 
@@ -928,6 +925,20 @@ span {
     outline: none;
     border-color: #4D5AE5;
 }
+
+.icon-modal{
+    position: absolute;
+  
+    left: 16px;
+    top: 8px;
+    fill:#2E2F42;
+  
+}
+
+
+
+
+
 
 .modal-form-input-desc {
     display: block;
@@ -988,6 +999,8 @@ letter-spacing: 0.04em;
 }
 
 
+
+
 /* footer e-mail input ---------------------------------------------------------- */
 .mail-input-container {
     outline: 2px solid red;
@@ -1021,6 +1034,7 @@ color: #8E8F99;
 background-color: tomato;
 background-image:url(../images/close-btn.svg);
 }
+
 
 .visually-hidden{
     position: absolute;
