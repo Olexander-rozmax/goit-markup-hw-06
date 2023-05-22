@@ -1029,7 +1029,6 @@ letter-spacing: 0.04em;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
-[FSon61] Модуль 6. Урок 2 - Розмітка форм. Стилізація форм
 line-height: 14px;
 letter-spacing: 0.04em;
 color: #8E8F99;
@@ -1042,7 +1041,9 @@ color: #8E8F99;
 
 
 .modal-form-check:checked + .modal-form-check-desc::before {
-background-color: tomato;
+background-color: #4D5AE5;
+background-position: center;
+background-repeat: no-repeat;
 background-image:url(../images/close-btn.svg);
 }
 
