@@ -1015,8 +1015,8 @@ letter-spacing: 0.04em;
 /* check box */
 .modal-form-check-desc::before{
     display: block;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     content:'';
     border-radius: 4px;
@@ -1029,6 +1029,7 @@ letter-spacing: 0.04em;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
+[FSon61] Модуль 6. Урок 2 - Розмітка форм. Стилізація форм
 line-height: 14px;
 letter-spacing: 0.04em;
 color: #8E8F99;
@@ -1046,6 +1047,36 @@ background-image:url(../images/close-btn.svg);
 }
 
 
+.modal-submit-button {
+    display: block;
+    background: #4D5AE5;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-submit-button:hover,
+.modal-submit-button:focus {
+    background-color: #404BBF;
+
+}
  
 
 .visually-hidden{
