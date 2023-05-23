@@ -1005,30 +1005,35 @@ span {
 
 /* footer e-mail input ---------------------------------------------------------- */
 .mail-input-container {
- outline: 2px solid red;
+ 
  margin-left: 80px;
 
 
 }
 
 .subscribe-button{
-   
-   position: absolute;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 24px;
-    background: #4D5AE5;
+
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+background: #4D5AE5;
 border-radius: 4px;
-    color: white;
+color: white;  
+margin-left: 16px;
+width: 165px;
+}
+
+.icon-modal-subscribe{
+  width: 24px;
+  height: 20px;
+  fill: white;
+  
+
 }
 
 .subscribe-label{
-
 display: flex;
 flex-direction: column;
-
-
-
 
 }
 .subscribe-label-span{
@@ -1060,6 +1065,7 @@ border-radius: 4px;
 background-color: #2E2F42;
 
 }
+
 
 
 
