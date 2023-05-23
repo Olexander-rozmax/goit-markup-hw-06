@@ -1005,14 +1005,15 @@ span {
 
 /* footer e-mail input ---------------------------------------------------------- */
 .mail-input-container {
- 
+
+
  margin-left: 80px;
 
 
 }
 
 .subscribe-button{
-
+  
 justify-content: center;
 align-items: center;
 padding: 8px 24px;
@@ -1024,6 +1025,8 @@ width: 165px;
 }
 
 .icon-modal-subscribe{
+    
+
   width: 24px;
   height: 20px;
   fill: white;
@@ -1032,6 +1035,7 @@ width: 165px;
 }
 
 .subscribe-label{
+
 display: flex;
 flex-direction: column;
 
