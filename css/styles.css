@@ -1013,7 +1013,7 @@ span {
 }
 
 .subscribe-button{
-  
+display: flex;
 justify-content: center;
 align-items: center;
 padding: 8px 24px;
