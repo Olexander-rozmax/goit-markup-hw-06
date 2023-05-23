@@ -1012,8 +1012,8 @@ span {
 }
 
 .label-button{
-    outline: 2px solid red;
-    display: flex;}
+   
+display: flex;}
   
 .subscribe-button{
 display: flex;
@@ -1025,6 +1025,9 @@ border-radius: 4px;
 color: white;  
 margin-left: 16px;
 width: 165px;
+max-height: 40px;
+margin-top: 40px;
+margin-left: 24px;
 }
 
 .icon-modal-subscribe{
